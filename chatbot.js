@@ -2,7 +2,7 @@
 class ChatBot {
     constructor() {
         // ⚠️ 重要：請替換為您的 n8n webhook URL
-        this.webhookUrl = 'https://m11309910.app.n8n.cloud/webhook/chat';
+        this.webhookUrl = 'https://m11309910.app.n8n.cloud/webhook';
         
         // 初始化 session ID
         this.sessionId = this.getOrCreateSessionId();
